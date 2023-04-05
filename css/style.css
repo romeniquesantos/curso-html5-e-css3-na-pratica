@@ -59,7 +59,7 @@ p {
     width: 85%;
     float: left;
     padding: 15px 10px;
-
+    border-radius: 5px 0px 0px 5px;
 }
 
 .cabecalho button {
@@ -69,10 +69,11 @@ p {
     background-color: #0cae98;
     color: #fff;
     cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+
 }
 
 /*MENU*/
-
 .menu {
     width: 100%;
     float: left;
@@ -91,4 +92,27 @@ p {
 
 .menu li a:hover {
     color: #fff;
+}
+
+/*social icons*/
+.social-icons {
+    float: right;
+}
+
+.social-icons a {
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}
+
+.btn-facebook:hover {
+    color: #3b5998;
+}
+
+.btn-twitter:hover {
+    color: #54a4d6;
+}
+
+.btn-google:hover {
+    color: #d73d32;
 }
